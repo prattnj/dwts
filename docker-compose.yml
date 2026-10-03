@@ -1,0 +1,6 @@
+services:
+  dwts:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${PORT_DWTS}:3000"

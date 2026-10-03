@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --color-midnight: #0a0e1f;
+  --color-navy: #111733;
+  --color-navy-light: #1a2147;
+  --color-gold: #c9a24b;
+  --color-gold-light: #e8cf8f;
+  --color-champagne: #f3e5c3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-midnight);
+  color: #e9e6df;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Subtle spotlight wash behind the hero */
+.spotlight {
+  background:
+    radial-gradient(ellipse 60% 45% at 50% 0%, rgba(201, 162, 75, 0.18), transparent 70%),
+    radial-gradient(ellipse 45% 35% at 18% 12%, rgba(90, 110, 200, 0.12), transparent 70%),
+    radial-gradient(ellipse 45% 35% at 82% 12%, rgba(90, 110, 200, 0.12), transparent 70%);
+}
+
+.gold-rule {
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+  height: 1px;
+}
+
+.card-sheen {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 45%);
+}
