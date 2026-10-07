@@ -21,8 +21,7 @@ export default function LastYear() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-sm text-champagne/60">
             Last year set the bar high — six couples took the floor, and the audience vote
-            crowned Jess &amp; Justin the winners. The champions will be in attendance to
-            defend their title.
+            crowned Jess &amp; Justin the winners.
           </p>
         </div>
 
