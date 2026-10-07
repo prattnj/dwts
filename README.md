@@ -28,8 +28,8 @@ docker compose up -d --build
 
 ## Filling in real content
 
-- **Promo video**: swap the YouTube embed ID in `src/components/Hero.tsx`
-  (currently a placeholder official DWTS video).
+- **Promo video**: the trailer lives at `public/trailer.mp4` (H.264, converted from the
+  original .mov); poster frame at `public/trailer-poster.jpg`.
 - **This year's couples**: edit the `couples` array in `src/components/Couples.tsx`.
 - **Last year's recap**: edit `lastYearCouples` in `src/components/LastYear.tsx`.
 - **Event details**: edit the `details` array in `src/components/EventDetails.tsx`.

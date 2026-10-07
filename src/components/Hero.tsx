@@ -19,20 +19,16 @@ export default function Hero() {
 
         <div className="mx-auto mt-12 max-w-4xl">
           <div className="gold-rule mb-6" />
-          <div className="overflow-hidden rounded-xl border border-gold/30 shadow-[0_0_80px_rgba(201,162,75,0.15)]">
-            <div className="aspect-video w-full">
-              <iframe
-                className="h-full w-full"
-                src="https://www.youtube.com/embed/fzJV8DFavBo"
-                title="Dancing with the Stars — Official Promo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              />
-            </div>
+          <div className="mx-auto max-w-sm overflow-hidden rounded-xl border border-gold/30 shadow-[0_0_80px_rgba(201,162,75,0.15)]">
+            <video
+              className="aspect-[9/16] w-full bg-black"
+              src="/trailer.mp4"
+              poster="/trailer-poster.jpg"
+              controls
+              preload="metadata"
+              playsInline
+            />
           </div>
-          <p className="mt-4 text-xs tracking-wide text-champagne/40 uppercase">
-            Official promo video coming soon &mdash; placeholder shown
-          </p>
           <div className="gold-rule mt-6" />
         </div>
 
