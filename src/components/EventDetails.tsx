@@ -17,7 +17,7 @@ const details: { icon: IconDefinition; label: string; value: string; sub?: strin
   {
     icon: faLocationDot,
     label: 'Location',
-    value: '3679 Bluegrass Blvd',
+    value: '481 E 300 N',
     sub: 'Lehi, UT 84043',
   },
 ]
